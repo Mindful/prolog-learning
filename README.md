@@ -1,0 +1,1 @@
+Very basic programs written as part of learning Prolog. The resource used is [Learn Prolog Now](http://www.learnprolognow.org/).
