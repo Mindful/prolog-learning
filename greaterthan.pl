@@ -18,9 +18,8 @@ greater_than(X, Y) :-
 Finally solved below. Felt silly afterwards. The important thing is the limitation in the true clause that the left variable has a succ()
 */
 
-greater_than(0,_) :- false.
-greater_than(succ(_),0) :- true.
-greater_than(0,0) :- false.
+/*greater_than(0,_) :- false.*/
 
+greater_than(succ(_),0).
 greater_than(succ(X), succ(Y)) :- 
 	greater_than(X,Y).
